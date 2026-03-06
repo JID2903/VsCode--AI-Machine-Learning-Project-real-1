@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CollegeBasketballAnalytics season="2025-2026" division="NCAA Division I">
+
+    <Metadata>
+        <LastUpdated>2026-02-27</LastUpdated>
+        <UpdateFrequency>Weekly</UpdateFrequency>
+        <Sources>
+            <Source>ESPN</Source>
+            <Source>StatMuse</Source>
+            <Source>TSN</Source>
+            <Source>KenPom</Source>
+            <Source>NCAA Official Stats</Source>
+        </Sources>
+    </Metadata>
+
+    <TeamStats>
+
+        <Team id="MICH" name="Michigan" conference="Big Ten" currentRank="1" previousRank="3">
+            <Record overallWins="25" overallLosses="2" conferenceWins="14" conferenceLosses="1"/>
+            <Efficiency>
+                <OffensiveRating>112.3</OffensiveRating>
+                <DefensiveRating>86.1</DefensiveRating>
+                <NetRating>26.2</NetRating>
+            </Efficiency>
+            <Pace>106.0</Pace>
+            <StrengthOfSchedule>97.0</StrengthOfSchedule>
+
+            <WeeklyTrends>
+                <Week number="1" offRating="108.4" defRating="90.2" net="18.2" rank="5"/>
+                <Week number="2" offRating="109.9" defRating="88.7" net="21.2" rank="4"/>
+                <Week number="3" offRating="110.7" defRating="87.9" net="22.8" rank="3"/>
+                <Week number="4" offRating="111.5" defRating="86.8" net="24.7" rank="2"/>
+                <Week number="5" offRating="112.3" defRating="86.1" net="26.2" rank="1"/>
+            </WeeklyTrends>
+
+            <ImprovementMetrics>
+                <OffensiveChangeLast5Weeks>+3.9</OffensiveChangeLast5Weeks>
+                <DefensiveChangeLast5Weeks>-4.1</DefensiveChangeLast5Weeks>
+                <NetChangeLast5Weeks>+8.0</NetChangeLast5Weeks>
+                <RankChangeLast5Weeks>+4</RankChangeLast5Weeks>
+            </ImprovementMetrics>
+        </Team>
+
+
+        <Team id="DUKE" name="Duke" conference="ACC" currentRank="3" previousRank="2">
+            <Record overallWins="24" overallLosses="3" conferenceWins="13" conferenceLosses="2"/>
+            <Efficiency>
+                <OffensiveRating>111.8</OffensiveRating>
+                <DefensiveRating>87.4</DefensiveRating>
+                <NetRating>24.4</NetRating>
+            </Efficiency>
+            <Pace>99.2</Pace>
+            <StrengthOfSchedule>95.6</StrengthOfSchedule>
+
+            <WeeklyTrends>
+                <Week number="1" offRating="110.1" defRating="89.3" net="20.8" rank="4"/>
+                <Week number="2" offRating="110.9" defRating="88.8" net="22.1" rank="3"/>
+                <Week number="3" offRating="111.0" defRating="88.0" net="23.0" rank="2"/>
+                <Week number="4" offRating="111.5" defRating="87.6" net="23.9" rank="2"/>
+                <Week number="5" offRating="111.8" defRating="87.4" net="24.4" rank="3"/>
+            </WeeklyTrends>
+
+            <ImprovementMetrics>
+                <OffensiveChangeLast5Weeks>+1.7</OffensiveChangeLast5Weeks>
+                <DefensiveChangeLast5Weeks>-1.9</DefensiveChangeLast5Weeks>
+                <NetChangeLast5Weeks>+3.6</NetChangeLast5Weeks>
+                <RankChangeLast5Weeks>+1</RankChangeLast5Weeks>
+            </ImprovementMetrics>
+        </Team>
+
+
+        <Team id="ARIZ" name="Arizona" conference="Big 12" currentRank="2" previousRank="4">
+            <Record overallWins="26" overallLosses="2" conferenceWins="15" conferenceLosses="1"/>
+            <Efficiency>
+                <OffensiveRating>111.2</OffensiveRating>
+                <DefensiveRating>88.1</DefensiveRating>
+                <NetRating>23.1</NetRating>
+            </Efficiency>
+            <Pace>104.4</Pace>
+            <StrengthOfSchedule>96.2</StrengthOfSchedule>
+
+            <WeeklyTrends>
+                <Week number="1" offRating="108.7" defRating="91.0" net="17.7" rank="6"/>
+                <Week number="2" offRating="109.8" defRating="89.7" net="20.1" rank="5"/>
+                <Week number="3" offRating="110.4" defRating="89.0" net="21.4" rank="4"/>
+                <Week number="4" offRating="110.9" defRating="88.4" net="22.5" rank="3"/>
+                <Week number="5" offRating="111.2" defRating="88.1" net="23.1" rank="2"/>
+            </WeeklyTrends>
+
+            <ImprovementMetrics>
+                <OffensiveChangeLast5Weeks>+2.5</OffensiveChangeLast5Weeks>
+                <DefensiveChangeLast5Weeks>-2.9</DefensiveChangeLast5Weeks>
+                <NetChangeLast5Weeks>+5.4</NetChangeLast5Weeks>
+                <RankChangeLast5Weeks>+4</RankChangeLast5Weeks>
+            </ImprovementMetrics>
+        </Team>
+
+    </TeamStats>
+
+
+    <ConferenceStandings>
+
+        <Conference name="Big Ten">
+            <TeamRank team="Michigan" rank="1"/>
+            <TeamRank team="Purdue" rank="2"/>
+            <TeamRank team="Illinois" rank="3"/>
+        </Conference>
+
+        <Conference name="ACC">
+            <TeamRank team="Duke" rank="1"/>
+            <TeamRank team="North Carolina" rank="2"/>
+            <TeamRank team="Virginia" rank="3"/>
+        </Conference>
+
+        <Conference name="Big 12">
+            <TeamRank team="Arizona" rank="1"/>
+            <TeamRank team="Houston" rank="2"/>
+            <TeamRank team="Kansas" rank="3"/>
+        </Conference>
+
+    </ConferenceStandings>
+
+</CollegeBasketballAnalytics>
