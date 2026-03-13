@@ -1,124 +1,1232 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<ncaa_d1_basketball_stats season="2024-25">
 
-<CollegeBasketballAnalytics season="2025-2026" division="NCAA Division I">
+  <!--
+    East Conference: ACC (excl. Stanford/Cal/SMU), Big Ten Midwest/East schools,
+    SEC East + traditional South, AAC East, MAC, Sun Belt, CUSA East, Big 12 East
+    West Conference: Big Ten Pacific schools, Big 12 West/Plains, SEC West, Mountain West,
+    ACC Pacific (Stanford/Cal/SMU), AAC/CUSA West
+  -->
 
-    <Metadata>
-        <LastUpdated>2026-02-27</LastUpdated>
-        <UpdateFrequency>Weekly</UpdateFrequency>
-        <Sources>
-            <Source>ESPN</Source>
-            <Source>StatMuse</Source>
-            <Source>TSN</Source>
-            <Source>KenPom</Source>
-            <Source>NCAA Official Stats</Source>
-        </Sources>
-    </Metadata>
+  <conference name="East">
 
-    <TeamStats>
+    <!-- ACC East Schools -->
+    <team conference="ACC">
+      <name>Duke</name>
+      <ppg>85.7</ppg>
+      <rpg>38.9</rpg>
+      <apg>17.3</apg>
+      <bpg>5.8</bpg>
+      <spg>8.0</spg>
+      <plus_minus>+18.3</plus_minus>
+      <fg_pct>49.1</fg_pct>
+      <three_pt_pct>37.4</three_pt_pct>
+      <ft_pct>76.9</ft_pct>
+      <ts_pct>59.2</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>North Carolina</name>
+      <ppg>83.4</ppg>
+      <rpg>40.3</rpg>
+      <apg>16.2</apg>
+      <bpg>4.7</bpg>
+      <spg>7.3</spg>
+      <plus_minus>+12.9</plus_minus>
+      <fg_pct>48.2</fg_pct>
+      <three_pt_pct>35.8</three_pt_pct>
+      <ft_pct>75.4</ft_pct>
+      <ts_pct>57.6</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>NC State</name>
+      <ppg>79.5</ppg>
+      <rpg>37.6</rpg>
+      <apg>15.8</apg>
+      <bpg>4.1</bpg>
+      <spg>7.3</spg>
+      <plus_minus>+8.7</plus_minus>
+      <fg_pct>47.3</fg_pct>
+      <three_pt_pct>36.4</three_pt_pct>
+      <ft_pct>74.5</ft_pct>
+      <ts_pct>57.0</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Clemson</name>
+      <ppg>78.0</ppg>
+      <rpg>37.1</rpg>
+      <apg>15.0</apg>
+      <bpg>4.2</bpg>
+      <spg>7.6</spg>
+      <plus_minus>+9.4</plus_minus>
+      <fg_pct>47.0</fg_pct>
+      <three_pt_pct>36.1</three_pt_pct>
+      <ft_pct>74.0</ft_pct>
+      <ts_pct>56.5</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Miami (FL)</name>
+      <ppg>77.3</ppg>
+      <rpg>35.7</rpg>
+      <apg>14.6</apg>
+      <bpg>3.6</bpg>
+      <spg>7.8</spg>
+      <plus_minus>+6.1</plus_minus>
+      <fg_pct>46.6</fg_pct>
+      <three_pt_pct>35.3</three_pt_pct>
+      <ft_pct>73.3</ft_pct>
+      <ts_pct>55.8</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Pittsburgh</name>
+      <ppg>76.1</ppg>
+      <rpg>35.2</rpg>
+      <apg>15.3</apg>
+      <bpg>3.0</bpg>
+      <spg>7.5</spg>
+      <plus_minus>+5.2</plus_minus>
+      <fg_pct>46.4</fg_pct>
+      <three_pt_pct>35.6</three_pt_pct>
+      <ft_pct>74.8</ft_pct>
+      <ts_pct>56.1</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Florida State</name>
+      <ppg>75.6</ppg>
+      <rpg>36.3</rpg>
+      <apg>14.2</apg>
+      <bpg>4.5</bpg>
+      <spg>7.1</spg>
+      <plus_minus>+3.3</plus_minus>
+      <fg_pct>45.7</fg_pct>
+      <three_pt_pct>33.9</three_pt_pct>
+      <ft_pct>72.6</ft_pct>
+      <ts_pct>54.8</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Notre Dame</name>
+      <ppg>74.8</ppg>
+      <rpg>34.8</rpg>
+      <apg>14.0</apg>
+      <bpg>3.3</bpg>
+      <spg>6.7</spg>
+      <plus_minus>+3.9</plus_minus>
+      <fg_pct>45.9</fg_pct>
+      <three_pt_pct>34.7</three_pt_pct>
+      <ft_pct>73.7</ft_pct>
+      <ts_pct>55.0</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Wake Forest</name>
+      <ppg>74.0</ppg>
+      <rpg>34.7</rpg>
+      <apg>14.1</apg>
+      <bpg>2.9</bpg>
+      <spg>6.4</spg>
+      <plus_minus>+1.8</plus_minus>
+      <fg_pct>45.4</fg_pct>
+      <three_pt_pct>34.0</three_pt_pct>
+      <ft_pct>73.5</ft_pct>
+      <ts_pct>54.5</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Louisville</name>
+      <ppg>75.3</ppg>
+      <rpg>35.9</rpg>
+      <apg>14.4</apg>
+      <bpg>3.7</bpg>
+      <spg>7.2</spg>
+      <plus_minus>+4.6</plus_minus>
+      <fg_pct>46.1</fg_pct>
+      <three_pt_pct>34.3</three_pt_pct>
+      <ft_pct>72.8</ft_pct>
+      <ts_pct>55.2</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Syracuse</name>
+      <ppg>73.2</ppg>
+      <rpg>36.8</rpg>
+      <apg>13.5</apg>
+      <bpg>4.9</bpg>
+      <spg>8.9</spg>
+      <plus_minus>+2.1</plus_minus>
+      <fg_pct>44.7</fg_pct>
+      <three_pt_pct>32.6</three_pt_pct>
+      <ft_pct>70.8</ft_pct>
+      <ts_pct>53.4</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Virginia</name>
+      <ppg>68.9</ppg>
+      <rpg>33.5</rpg>
+      <apg>13.7</apg>
+      <bpg>3.9</bpg>
+      <spg>5.2</spg>
+      <plus_minus>+4.8</plus_minus>
+      <fg_pct>46.3</fg_pct>
+      <three_pt_pct>35.2</three_pt_pct>
+      <ft_pct>79.1</ft_pct>
+      <ts_pct>57.8</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Virginia Tech</name>
+      <ppg>72.4</ppg>
+      <rpg>34.1</rpg>
+      <apg>13.0</apg>
+      <bpg>2.8</bpg>
+      <spg>5.9</spg>
+      <plus_minus>-0.5</plus_minus>
+      <fg_pct>44.3</fg_pct>
+      <three_pt_pct>33.0</three_pt_pct>
+      <ft_pct>71.0</ft_pct>
+      <ts_pct>53.0</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Georgia Tech</name>
+      <ppg>70.7</ppg>
+      <rpg>33.8</rpg>
+      <apg>12.7</apg>
+      <bpg>3.4</bpg>
+      <spg>6.1</spg>
+      <plus_minus>-2.0</plus_minus>
+      <fg_pct>43.9</fg_pct>
+      <three_pt_pct>32.1</three_pt_pct>
+      <ft_pct>69.3</ft_pct>
+      <ts_pct>52.5</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>Boston College</name>
+      <ppg>69.6</ppg>
+      <rpg>33.2</rpg>
+      <apg>12.3</apg>
+      <bpg>2.6</bpg>
+      <spg>5.6</spg>
+      <plus_minus>-3.8</plus_minus>
+      <fg_pct>43.4</fg_pct>
+      <three_pt_pct>31.8</three_pt_pct>
+      <ft_pct>68.0</ft_pct>
+      <ts_pct>52.0</ts_pct>
+    </team>
 
-        <Team id="MICH" name="Michigan" conference="Big Ten" currentRank="1" previousRank="3">
-            <Record overallWins="25" overallLosses="2" conferenceWins="14" conferenceLosses="1"/>
-            <Efficiency>
-                <OffensiveRating>112.3</OffensiveRating>
-                <DefensiveRating>86.1</DefensiveRating>
-                <NetRating>26.2</NetRating>
-            </Efficiency>
-            <Pace>106.0</Pace>
-            <StrengthOfSchedule>97.0</StrengthOfSchedule>
+    <!-- Big Ten Midwest/East Schools -->
+    <team conference="Big Ten">
+      <name>Purdue</name>
+      <ppg>82.3</ppg>
+      <rpg>40.1</rpg>
+      <apg>14.7</apg>
+      <bpg>5.9</bpg>
+      <spg>6.2</spg>
+      <plus_minus>+13.4</plus_minus>
+      <fg_pct>48.4</fg_pct>
+      <three_pt_pct>36.5</three_pt_pct>
+      <ft_pct>77.2</ft_pct>
+      <ts_pct>58.3</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Ohio State</name>
+      <ppg>80.6</ppg>
+      <rpg>36.7</rpg>
+      <apg>16.1</apg>
+      <bpg>4.0</bpg>
+      <spg>7.8</spg>
+      <plus_minus>+10.2</plus_minus>
+      <fg_pct>47.2</fg_pct>
+      <three_pt_pct>36.0</three_pt_pct>
+      <ft_pct>75.1</ft_pct>
+      <ts_pct>57.0</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Michigan State</name>
+      <ppg>79.7</ppg>
+      <rpg>38.6</rpg>
+      <apg>15.4</apg>
+      <bpg>4.6</bpg>
+      <spg>7.3</spg>
+      <plus_minus>+9.1</plus_minus>
+      <fg_pct>46.9</fg_pct>
+      <three_pt_pct>35.1</three_pt_pct>
+      <ft_pct>74.3</ft_pct>
+      <ts_pct>56.2</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Illinois</name>
+      <ppg>78.8</ppg>
+      <rpg>37.3</rpg>
+      <apg>15.1</apg>
+      <bpg>3.8</bpg>
+      <spg>7.6</spg>
+      <plus_minus>+8.6</plus_minus>
+      <fg_pct>46.5</fg_pct>
+      <three_pt_pct>35.7</three_pt_pct>
+      <ft_pct>73.9</ft_pct>
+      <ts_pct>56.0</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Indiana</name>
+      <ppg>77.5</ppg>
+      <rpg>35.8</rpg>
+      <apg>14.9</apg>
+      <bpg>3.5</bpg>
+      <spg>7.0</spg>
+      <plus_minus>+6.3</plus_minus>
+      <fg_pct>46.2</fg_pct>
+      <three_pt_pct>34.8</three_pt_pct>
+      <ft_pct>74.6</ft_pct>
+      <ts_pct>55.7</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Maryland</name>
+      <ppg>76.3</ppg>
+      <rpg>36.1</rpg>
+      <apg>14.4</apg>
+      <bpg>3.4</bpg>
+      <spg>7.1</spg>
+      <plus_minus>+5.5</plus_minus>
+      <fg_pct>46.1</fg_pct>
+      <three_pt_pct>34.1</three_pt_pct>
+      <ft_pct>72.5</ft_pct>
+      <ts_pct>55.1</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Wisconsin</name>
+      <ppg>74.1</ppg>
+      <rpg>36.2</rpg>
+      <apg>13.6</apg>
+      <bpg>3.3</bpg>
+      <spg>5.8</spg>
+      <plus_minus>+5.0</plus_minus>
+      <fg_pct>46.0</fg_pct>
+      <three_pt_pct>35.9</three_pt_pct>
+      <ft_pct>76.8</ft_pct>
+      <ts_pct>56.4</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Penn State</name>
+      <ppg>74.5</ppg>
+      <rpg>35.0</rpg>
+      <apg>13.7</apg>
+      <bpg>3.3</bpg>
+      <spg>6.6</spg>
+      <plus_minus>+3.2</plus_minus>
+      <fg_pct>45.5</fg_pct>
+      <three_pt_pct>33.8</three_pt_pct>
+      <ft_pct>72.0</ft_pct>
+      <ts_pct>54.6</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Michigan</name>
+      <ppg>73.9</ppg>
+      <rpg>35.4</rpg>
+      <apg>14.0</apg>
+      <bpg>3.6</bpg>
+      <spg>6.5</spg>
+      <plus_minus>+3.7</plus_minus>
+      <fg_pct>45.6</fg_pct>
+      <three_pt_pct>34.4</three_pt_pct>
+      <ft_pct>73.0</ft_pct>
+      <ts_pct>54.9</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Nebraska</name>
+      <ppg>75.1</ppg>
+      <rpg>35.3</rpg>
+      <apg>13.8</apg>
+      <bpg>3.2</bpg>
+      <spg>6.9</spg>
+      <plus_minus>+4.1</plus_minus>
+      <fg_pct>45.4</fg_pct>
+      <three_pt_pct>33.6</three_pt_pct>
+      <ft_pct>71.7</ft_pct>
+      <ts_pct>54.3</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Minnesota</name>
+      <ppg>72.8</ppg>
+      <rpg>34.6</rpg>
+      <apg>13.3</apg>
+      <bpg>3.0</bpg>
+      <spg>6.2</spg>
+      <plus_minus>+0.3</plus_minus>
+      <fg_pct>44.8</fg_pct>
+      <three_pt_pct>32.9</three_pt_pct>
+      <ft_pct>70.2</ft_pct>
+      <ts_pct>53.3</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Iowa</name>
+      <ppg>81.4</ppg>
+      <rpg>35.9</rpg>
+      <apg>16.5</apg>
+      <bpg>2.9</bpg>
+      <spg>6.7</spg>
+      <plus_minus>+7.8</plus_minus>
+      <fg_pct>47.8</fg_pct>
+      <three_pt_pct>37.1</three_pt_pct>
+      <ft_pct>78.3</ft_pct>
+      <ts_pct>58.5</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Northwestern</name>
+      <ppg>71.6</ppg>
+      <rpg>33.7</rpg>
+      <apg>13.1</apg>
+      <bpg>2.7</bpg>
+      <spg>5.5</spg>
+      <plus_minus>-2.4</plus_minus>
+      <fg_pct>44.0</fg_pct>
+      <three_pt_pct>32.3</three_pt_pct>
+      <ft_pct>69.5</ft_pct>
+      <ts_pct>52.6</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Rutgers</name>
+      <ppg>69.4</ppg>
+      <rpg>34.9</rpg>
+      <apg>12.4</apg>
+      <bpg>3.8</bpg>
+      <spg>6.0</spg>
+      <plus_minus>-0.9</plus_minus>
+      <fg_pct>43.5</fg_pct>
+      <three_pt_pct>31.0</three_pt_pct>
+      <ft_pct>68.1</ft_pct>
+      <ts_pct>52.0</ts_pct>
+    </team>
 
-            <WeeklyTrends>
-                <Week number="1" offRating="108.4" defRating="90.2" net="18.2" rank="5"/>
-                <Week number="2" offRating="109.9" defRating="88.7" net="21.2" rank="4"/>
-                <Week number="3" offRating="110.7" defRating="87.9" net="22.8" rank="3"/>
-                <Week number="4" offRating="111.5" defRating="86.8" net="24.7" rank="2"/>
-                <Week number="5" offRating="112.3" defRating="86.1" net="26.2" rank="1"/>
-            </WeeklyTrends>
+    <!-- SEC East Schools -->
+    <team conference="SEC">
+      <name>Florida</name>
+      <ppg>83.2</ppg>
+      <rpg>37.8</rpg>
+      <apg>16.3</apg>
+      <bpg>3.9</bpg>
+      <spg>7.5</spg>
+      <plus_minus>+11.7</plus_minus>
+      <fg_pct>47.6</fg_pct>
+      <three_pt_pct>36.2</three_pt_pct>
+      <ft_pct>76.4</ft_pct>
+      <ts_pct>57.1</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Tennessee</name>
+      <ppg>77.6</ppg>
+      <rpg>36.4</rpg>
+      <apg>14.1</apg>
+      <bpg>4.8</bpg>
+      <spg>8.7</spg>
+      <plus_minus>+12.5</plus_minus>
+      <fg_pct>46.2</fg_pct>
+      <three_pt_pct>34.9</three_pt_pct>
+      <ft_pct>73.6</ft_pct>
+      <ts_pct>55.8</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Kentucky</name>
+      <ppg>80.1</ppg>
+      <rpg>40.2</rpg>
+      <apg>15.7</apg>
+      <bpg>5.3</bpg>
+      <spg>6.8</spg>
+      <plus_minus>+8.4</plus_minus>
+      <fg_pct>46.8</fg_pct>
+      <three_pt_pct>33.7</three_pt_pct>
+      <ft_pct>72.9</ft_pct>
+      <ts_pct>55.6</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Georgia</name>
+      <ppg>73.6</ppg>
+      <rpg>34.3</rpg>
+      <apg>13.5</apg>
+      <bpg>3.1</bpg>
+      <spg>6.3</spg>
+      <plus_minus>+0.8</plus_minus>
+      <fg_pct>44.9</fg_pct>
+      <three_pt_pct>32.4</three_pt_pct>
+      <ft_pct>70.0</ft_pct>
+      <ts_pct>53.5</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>South Carolina</name>
+      <ppg>71.8</ppg>
+      <rpg>36.5</rpg>
+      <apg>12.8</apg>
+      <bpg>3.4</bpg>
+      <spg>5.9</spg>
+      <plus_minus>-1.2</plus_minus>
+      <fg_pct>44.1</fg_pct>
+      <three_pt_pct>31.5</three_pt_pct>
+      <ft_pct>68.4</ft_pct>
+      <ts_pct>52.7</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Missouri</name>
+      <ppg>76.4</ppg>
+      <rpg>36.0</rpg>
+      <apg>14.8</apg>
+      <bpg>3.2</bpg>
+      <spg>7.0</spg>
+      <plus_minus>+3.6</plus_minus>
+      <fg_pct>45.8</fg_pct>
+      <three_pt_pct>34.2</three_pt_pct>
+      <ft_pct>72.1</ft_pct>
+      <ts_pct>54.8</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Vanderbilt</name>
+      <ppg>70.4</ppg>
+      <rpg>33.9</rpg>
+      <apg>12.5</apg>
+      <bpg>2.8</bpg>
+      <spg>5.7</spg>
+      <plus_minus>-3.1</plus_minus>
+      <fg_pct>43.7</fg_pct>
+      <three_pt_pct>31.9</three_pt_pct>
+      <ft_pct>67.8</ft_pct>
+      <ts_pct>52.1</ts_pct>
+    </team>
 
-            <ImprovementMetrics>
-                <OffensiveChangeLast5Weeks>+3.9</OffensiveChangeLast5Weeks>
-                <DefensiveChangeLast5Weeks>-4.1</DefensiveChangeLast5Weeks>
-                <NetChangeLast5Weeks>+8.0</NetChangeLast5Weeks>
-                <RankChangeLast5Weeks>+4</RankChangeLast5Weeks>
-            </ImprovementMetrics>
-        </Team>
+    <!-- Big 12 East Schools -->
+    <team conference="Big 12">
+      <name>West Virginia</name>
+      <ppg>73.7</ppg>
+      <rpg>36.3</rpg>
+      <apg>13.8</apg>
+      <bpg>3.1</bpg>
+      <spg>6.8</spg>
+      <plus_minus>+2.5</plus_minus>
+      <fg_pct>45.2</fg_pct>
+      <three_pt_pct>33.7</three_pt_pct>
+      <ft_pct>71.8</ft_pct>
+      <ts_pct>54.0</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Cincinnati</name>
+      <ppg>74.0</ppg>
+      <rpg>35.5</rpg>
+      <apg>14.0</apg>
+      <bpg>3.5</bpg>
+      <spg>7.0</spg>
+      <plus_minus>+3.5</plus_minus>
+      <fg_pct>45.7</fg_pct>
+      <three_pt_pct>34.3</three_pt_pct>
+      <ft_pct>72.7</ft_pct>
+      <ts_pct>54.7</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>UCF</name>
+      <ppg>72.6</ppg>
+      <rpg>34.4</rpg>
+      <apg>13.6</apg>
+      <bpg>2.8</bpg>
+      <spg>6.0</spg>
+      <plus_minus>+0.6</plus_minus>
+      <fg_pct>44.5</fg_pct>
+      <three_pt_pct>33.0</three_pt_pct>
+      <ft_pct>70.9</ft_pct>
+      <ts_pct>53.3</ts_pct>
+    </team>
 
+    <!-- AAC East Schools -->
+    <team conference="AAC">
+      <name>Memphis</name>
+      <ppg>81.2</ppg>
+      <rpg>39.7</rpg>
+      <apg>15.8</apg>
+      <bpg>5.4</bpg>
+      <spg>8.5</spg>
+      <plus_minus>+12.8</plus_minus>
+      <fg_pct>47.8</fg_pct>
+      <three_pt_pct>34.9</three_pt_pct>
+      <ft_pct>73.4</ft_pct>
+      <ts_pct>56.7</ts_pct>
+    </team>
+    <team conference="AAC">
+      <name>South Florida</name>
+      <ppg>72.0</ppg>
+      <rpg>34.8</rpg>
+      <apg>13.3</apg>
+      <bpg>3.1</bpg>
+      <spg>6.5</spg>
+      <plus_minus>+1.0</plus_minus>
+      <fg_pct>44.6</fg_pct>
+      <three_pt_pct>33.3</three_pt_pct>
+      <ft_pct>71.1</ft_pct>
+      <ts_pct>53.7</ts_pct>
+    </team>
+    <team conference="AAC">
+      <name>Temple</name>
+      <ppg>69.8</ppg>
+      <rpg>34.0</rpg>
+      <apg>12.6</apg>
+      <bpg>2.9</bpg>
+      <spg>6.0</spg>
+      <plus_minus>-2.5</plus_minus>
+      <fg_pct>43.3</fg_pct>
+      <three_pt_pct>31.6</three_pt_pct>
+      <ft_pct>68.7</ft_pct>
+      <ts_pct>52.2</ts_pct>
+    </team>
 
-        <Team id="DUKE" name="Duke" conference="ACC" currentRank="3" previousRank="2">
-            <Record overallWins="24" overallLosses="3" conferenceWins="13" conferenceLosses="2"/>
-            <Efficiency>
-                <OffensiveRating>111.8</OffensiveRating>
-                <DefensiveRating>87.4</DefensiveRating>
-                <NetRating>24.4</NetRating>
-            </Efficiency>
-            <Pace>99.2</Pace>
-            <StrengthOfSchedule>95.6</StrengthOfSchedule>
+    <!-- MAC Schools -->
+    <team conference="MAC">
+      <name>Toledo</name>
+      <ppg>76.9</ppg>
+      <rpg>36.1</rpg>
+      <apg>15.0</apg>
+      <bpg>3.3</bpg>
+      <spg>6.9</spg>
+      <plus_minus>+7.1</plus_minus>
+      <fg_pct>46.6</fg_pct>
+      <three_pt_pct>35.5</three_pt_pct>
+      <ft_pct>74.5</ft_pct>
+      <ts_pct>56.2</ts_pct>
+    </team>
+    <team conference="MAC">
+      <name>Ohio</name>
+      <ppg>74.6</ppg>
+      <rpg>35.8</rpg>
+      <apg>14.3</apg>
+      <bpg>3.0</bpg>
+      <spg>6.7</spg>
+      <plus_minus>+4.3</plus_minus>
+      <fg_pct>45.8</fg_pct>
+      <three_pt_pct>34.4</three_pt_pct>
+      <ft_pct>73.0</ft_pct>
+      <ts_pct>55.0</ts_pct>
+    </team>
+    <team conference="MAC">
+      <name>Akron</name>
+      <ppg>73.0</ppg>
+      <rpg>35.0</rpg>
+      <apg>13.7</apg>
+      <bpg>3.2</bpg>
+      <spg>6.4</spg>
+      <plus_minus>+3.0</plus_minus>
+      <fg_pct>45.0</fg_pct>
+      <three_pt_pct>33.5</three_pt_pct>
+      <ft_pct>71.5</ft_pct>
+      <ts_pct>54.0</ts_pct>
+    </team>
+    <team conference="MAC">
+      <name>Kent State</name>
+      <ppg>71.5</ppg>
+      <rpg>33.9</rpg>
+      <apg>12.9</apg>
+      <bpg>2.6</bpg>
+      <spg>5.6</spg>
+      <plus_minus>+0.7</plus_minus>
+      <fg_pct>43.9</fg_pct>
+      <three_pt_pct>32.3</three_pt_pct>
+      <ft_pct>70.4</ft_pct>
+      <ts_pct>52.8</ts_pct>
+    </team>
+    <team conference="MAC">
+      <name>Ball State</name>
+      <ppg>69.2</ppg>
+      <rpg>33.4</rpg>
+      <apg>12.4</apg>
+      <bpg>2.4</bpg>
+      <spg>5.3</spg>
+      <plus_minus>-3.0</plus_minus>
+      <fg_pct>43.1</fg_pct>
+      <three_pt_pct>31.4</three_pt_pct>
+      <ft_pct>68.5</ft_pct>
+      <ts_pct>51.8</ts_pct>
+    </team>
 
-            <WeeklyTrends>
-                <Week number="1" offRating="110.1" defRating="89.3" net="20.8" rank="4"/>
-                <Week number="2" offRating="110.9" defRating="88.8" net="22.1" rank="3"/>
-                <Week number="3" offRating="111.0" defRating="88.0" net="23.0" rank="2"/>
-                <Week number="4" offRating="111.5" defRating="87.6" net="23.9" rank="2"/>
-                <Week number="5" offRating="111.8" defRating="87.4" net="24.4" rank="3"/>
-            </WeeklyTrends>
+    <!-- Sun Belt East Schools -->
+    <team conference="Sun Belt">
+      <name>Appalachian State</name>
+      <ppg>72.2</ppg>
+      <rpg>34.7</rpg>
+      <apg>13.4</apg>
+      <bpg>2.9</bpg>
+      <spg>6.2</spg>
+      <plus_minus>+1.2</plus_minus>
+      <fg_pct>44.5</fg_pct>
+      <three_pt_pct>33.2</three_pt_pct>
+      <ft_pct>70.8</ft_pct>
+      <ts_pct>53.4</ts_pct>
+    </team>
+    <team conference="Sun Belt">
+      <name>Georgia Southern</name>
+      <ppg>68.9</ppg>
+      <rpg>33.1</rpg>
+      <apg>12.2</apg>
+      <bpg>2.5</bpg>
+      <spg>5.4</spg>
+      <plus_minus>-3.5</plus_minus>
+      <fg_pct>42.8</fg_pct>
+      <three_pt_pct>31.2</three_pt_pct>
+      <ft_pct>68.2</ft_pct>
+      <ts_pct>51.5</ts_pct>
+    </team>
 
-            <ImprovementMetrics>
-                <OffensiveChangeLast5Weeks>+1.7</OffensiveChangeLast5Weeks>
-                <DefensiveChangeLast5Weeks>-1.9</DefensiveChangeLast5Weeks>
-                <NetChangeLast5Weeks>+3.6</NetChangeLast5Weeks>
-                <RankChangeLast5Weeks>+1</RankChangeLast5Weeks>
-            </ImprovementMetrics>
-        </Team>
+    <!-- CUSA East Schools -->
+    <team conference="CUSA">
+      <name>Liberty</name>
+      <ppg>76.3</ppg>
+      <rpg>35.9</rpg>
+      <apg>14.7</apg>
+      <bpg>3.5</bpg>
+      <spg>7.1</spg>
+      <plus_minus>+7.6</plus_minus>
+      <fg_pct>46.4</fg_pct>
+      <three_pt_pct>35.2</three_pt_pct>
+      <ft_pct>74.0</ft_pct>
+      <ts_pct>55.8</ts_pct>
+    </team>
+    <team conference="CUSA">
+      <name>Middle Tennessee</name>
+      <ppg>69.5</ppg>
+      <rpg>33.7</rpg>
+      <apg>12.5</apg>
+      <bpg>2.6</bpg>
+      <spg>5.5</spg>
+      <plus_minus>-2.2</plus_minus>
+      <fg_pct>43.2</fg_pct>
+      <three_pt_pct>31.8</three_pt_pct>
+      <ft_pct>68.6</ft_pct>
+      <ts_pct>52.1</ts_pct>
+    </team>
 
+  </conference>
 
-        <Team id="ARIZ" name="Arizona" conference="Big 12" currentRank="2" previousRank="4">
-            <Record overallWins="26" overallLosses="2" conferenceWins="15" conferenceLosses="1"/>
-            <Efficiency>
-                <OffensiveRating>111.2</OffensiveRating>
-                <DefensiveRating>88.1</DefensiveRating>
-                <NetRating>23.1</NetRating>
-            </Efficiency>
-            <Pace>104.4</Pace>
-            <StrengthOfSchedule>96.2</StrengthOfSchedule>
+  <!-- ==================== WEST CONFERENCE ==================== -->
 
-            <WeeklyTrends>
-                <Week number="1" offRating="108.7" defRating="91.0" net="17.7" rank="6"/>
-                <Week number="2" offRating="109.8" defRating="89.7" net="20.1" rank="5"/>
-                <Week number="3" offRating="110.4" defRating="89.0" net="21.4" rank="4"/>
-                <Week number="4" offRating="110.9" defRating="88.4" net="22.5" rank="3"/>
-                <Week number="5" offRating="111.2" defRating="88.1" net="23.1" rank="2"/>
-            </WeeklyTrends>
+  <conference name="West">
 
-            <ImprovementMetrics>
-                <OffensiveChangeLast5Weeks>+2.5</OffensiveChangeLast5Weeks>
-                <DefensiveChangeLast5Weeks>-2.9</DefensiveChangeLast5Weeks>
-                <NetChangeLast5Weeks>+5.4</NetChangeLast5Weeks>
-                <RankChangeLast5Weeks>+4</RankChangeLast5Weeks>
-            </ImprovementMetrics>
-        </Team>
+    <!-- SEC West Schools -->
+    <team conference="SEC">
+      <name>Alabama</name>
+      <ppg>86.4</ppg>
+      <rpg>37.2</rpg>
+      <apg>16.8</apg>
+      <bpg>4.1</bpg>
+      <spg>8.3</spg>
+      <plus_minus>+14.2</plus_minus>
+      <fg_pct>47.3</fg_pct>
+      <three_pt_pct>36.8</three_pt_pct>
+      <ft_pct>74.1</ft_pct>
+      <ts_pct>57.4</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Auburn</name>
+      <ppg>84.9</ppg>
+      <rpg>38.5</rpg>
+      <apg>15.2</apg>
+      <bpg>5.6</bpg>
+      <spg>7.9</spg>
+      <plus_minus>+16.1</plus_minus>
+      <fg_pct>48.1</fg_pct>
+      <three_pt_pct>35.4</three_pt_pct>
+      <ft_pct>71.8</ft_pct>
+      <ts_pct>57.9</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>LSU</name>
+      <ppg>79.3</ppg>
+      <rpg>36.9</rpg>
+      <apg>14.6</apg>
+      <bpg>4.4</bpg>
+      <spg>7.2</spg>
+      <plus_minus>+5.8</plus_minus>
+      <fg_pct>46.0</fg_pct>
+      <three_pt_pct>33.1</three_pt_pct>
+      <ft_pct>70.5</ft_pct>
+      <ts_pct>54.7</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Arkansas</name>
+      <ppg>78.5</ppg>
+      <rpg>38.1</rpg>
+      <apg>15.0</apg>
+      <bpg>3.7</bpg>
+      <spg>8.1</spg>
+      <plus_minus>+6.9</plus_minus>
+      <fg_pct>46.5</fg_pct>
+      <three_pt_pct>34.6</three_pt_pct>
+      <ft_pct>73.2</ft_pct>
+      <ts_pct>55.3</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Texas</name>
+      <ppg>76.9</ppg>
+      <rpg>37.0</rpg>
+      <apg>14.5</apg>
+      <bpg>4.2</bpg>
+      <spg>7.4</spg>
+      <plus_minus>+7.3</plus_minus>
+      <fg_pct>46.3</fg_pct>
+      <three_pt_pct>34.0</three_pt_pct>
+      <ft_pct>73.5</ft_pct>
+      <ts_pct>55.5</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Ole Miss</name>
+      <ppg>75.9</ppg>
+      <rpg>34.8</rpg>
+      <apg>14.3</apg>
+      <bpg>2.9</bpg>
+      <spg>6.6</spg>
+      <plus_minus>+2.7</plus_minus>
+      <fg_pct>45.1</fg_pct>
+      <three_pt_pct>33.5</three_pt_pct>
+      <ft_pct>71.3</ft_pct>
+      <ts_pct>54.2</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Oklahoma</name>
+      <ppg>74.2</ppg>
+      <rpg>35.2</rpg>
+      <apg>14.1</apg>
+      <bpg>3.0</bpg>
+      <spg>6.5</spg>
+      <plus_minus>+2.0</plus_minus>
+      <fg_pct>45.0</fg_pct>
+      <three_pt_pct>33.0</three_pt_pct>
+      <ft_pct>71.0</ft_pct>
+      <ts_pct>54.0</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Texas A&amp;M</name>
+      <ppg>74.8</ppg>
+      <rpg>35.1</rpg>
+      <apg>13.9</apg>
+      <bpg>3.6</bpg>
+      <spg>6.4</spg>
+      <plus_minus>+4.2</plus_minus>
+      <fg_pct>45.3</fg_pct>
+      <three_pt_pct>32.8</three_pt_pct>
+      <ft_pct>69.7</ft_pct>
+      <ts_pct>53.9</ts_pct>
+    </team>
+    <team conference="SEC">
+      <name>Mississippi State</name>
+      <ppg>72.1</ppg>
+      <rpg>35.7</rpg>
+      <apg>13.2</apg>
+      <bpg>4.0</bpg>
+      <spg>6.1</spg>
+      <plus_minus>+1.4</plus_minus>
+      <fg_pct>44.6</fg_pct>
+      <three_pt_pct>32.0</three_pt_pct>
+      <ft_pct>68.9</ft_pct>
+      <ts_pct>53.2</ts_pct>
+    </team>
 
-    </TeamStats>
+    <!-- Big Ten Pacific Schools -->
+    <team conference="Big Ten">
+      <name>UCLA</name>
+      <ppg>80.9</ppg>
+      <rpg>37.5</rpg>
+      <apg>16.0</apg>
+      <bpg>4.3</bpg>
+      <spg>7.9</spg>
+      <plus_minus>+10.7</plus_minus>
+      <fg_pct>47.4</fg_pct>
+      <three_pt_pct>36.3</three_pt_pct>
+      <ft_pct>75.6</ft_pct>
+      <ts_pct>57.3</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>USC</name>
+      <ppg>78.2</ppg>
+      <rpg>36.4</rpg>
+      <apg>15.3</apg>
+      <bpg>3.7</bpg>
+      <spg>7.4</spg>
+      <plus_minus>+6.8</plus_minus>
+      <fg_pct>46.7</fg_pct>
+      <three_pt_pct>35.0</three_pt_pct>
+      <ft_pct>73.8</ft_pct>
+      <ts_pct>55.9</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Oregon</name>
+      <ppg>77.1</ppg>
+      <rpg>35.6</rpg>
+      <apg>14.8</apg>
+      <bpg>3.5</bpg>
+      <spg>7.0</spg>
+      <plus_minus>+5.9</plus_minus>
+      <fg_pct>46.0</fg_pct>
+      <three_pt_pct>34.5</three_pt_pct>
+      <ft_pct>73.1</ft_pct>
+      <ts_pct>55.4</ts_pct>
+    </team>
+    <team conference="Big Ten">
+      <name>Washington</name>
+      <ppg>73.3</ppg>
+      <rpg>34.5</rpg>
+      <apg>13.4</apg>
+      <bpg>3.1</bpg>
+      <spg>6.3</spg>
+      <plus_minus>+1.5</plus_minus>
+      <fg_pct>45.2</fg_pct>
+      <three_pt_pct>33.2</three_pt_pct>
+      <ft_pct>71.4</ft_pct>
+      <ts_pct>54.1</ts_pct>
+    </team>
 
+    <!-- Big 12 West Schools -->
+    <team conference="Big 12">
+      <name>Kansas</name>
+      <ppg>83.8</ppg>
+      <rpg>39.4</rpg>
+      <apg>16.6</apg>
+      <bpg>4.4</bpg>
+      <spg>7.8</spg>
+      <plus_minus>+15.6</plus_minus>
+      <fg_pct>48.5</fg_pct>
+      <three_pt_pct>36.7</three_pt_pct>
+      <ft_pct>75.8</ft_pct>
+      <ts_pct>58.1</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Arizona</name>
+      <ppg>82.0</ppg>
+      <rpg>38.0</rpg>
+      <apg>16.4</apg>
+      <bpg>4.0</bpg>
+      <spg>7.6</spg>
+      <plus_minus>+12.1</plus_minus>
+      <fg_pct>48.0</fg_pct>
+      <three_pt_pct>36.6</three_pt_pct>
+      <ft_pct>76.0</ft_pct>
+      <ts_pct>57.8</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Baylor</name>
+      <ppg>80.3</ppg>
+      <rpg>37.9</rpg>
+      <apg>15.6</apg>
+      <bpg>4.7</bpg>
+      <spg>7.4</spg>
+      <plus_minus>+11.2</plus_minus>
+      <fg_pct>47.6</fg_pct>
+      <three_pt_pct>35.9</three_pt_pct>
+      <ft_pct>74.7</ft_pct>
+      <ts_pct>57.2</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Iowa State</name>
+      <ppg>79.1</ppg>
+      <rpg>36.0</rpg>
+      <apg>15.9</apg>
+      <bpg>3.8</bpg>
+      <spg>7.5</spg>
+      <plus_minus>+9.0</plus_minus>
+      <fg_pct>47.2</fg_pct>
+      <three_pt_pct>36.3</three_pt_pct>
+      <ft_pct>75.3</ft_pct>
+      <ts_pct>57.0</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>BYU</name>
+      <ppg>78.4</ppg>
+      <rpg>36.2</rpg>
+      <apg>15.4</apg>
+      <bpg>3.2</bpg>
+      <spg>6.3</spg>
+      <plus_minus>+6.5</plus_minus>
+      <fg_pct>47.0</fg_pct>
+      <three_pt_pct>36.2</three_pt_pct>
+      <ft_pct>76.5</ft_pct>
+      <ts_pct>57.4</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Kansas State</name>
+      <ppg>77.8</ppg>
+      <rpg>36.6</rpg>
+      <apg>15.0</apg>
+      <bpg>3.6</bpg>
+      <spg>7.1</spg>
+      <plus_minus>+7.0</plus_minus>
+      <fg_pct>46.7</fg_pct>
+      <three_pt_pct>35.4</three_pt_pct>
+      <ft_pct>74.1</ft_pct>
+      <ts_pct>56.0</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>TCU</name>
+      <ppg>76.5</ppg>
+      <rpg>35.4</rpg>
+      <apg>14.8</apg>
+      <bpg>3.4</bpg>
+      <spg>6.9</spg>
+      <plus_minus>+5.7</plus_minus>
+      <fg_pct>46.3</fg_pct>
+      <three_pt_pct>34.6</three_pt_pct>
+      <ft_pct>73.0</ft_pct>
+      <ts_pct>55.3</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Arizona State</name>
+      <ppg>74.7</ppg>
+      <rpg>35.1</rpg>
+      <apg>14.3</apg>
+      <bpg>3.3</bpg>
+      <spg>6.7</spg>
+      <plus_minus>+3.4</plus_minus>
+      <fg_pct>45.6</fg_pct>
+      <three_pt_pct>34.2</three_pt_pct>
+      <ft_pct>72.4</ft_pct>
+      <ts_pct>54.9</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Oklahoma State</name>
+      <ppg>74.3</ppg>
+      <rpg>35.7</rpg>
+      <apg>14.1</apg>
+      <bpg>3.3</bpg>
+      <spg>6.5</spg>
+      <plus_minus>+3.0</plus_minus>
+      <fg_pct>45.5</fg_pct>
+      <three_pt_pct>34.0</three_pt_pct>
+      <ft_pct>72.3</ft_pct>
+      <ts_pct>54.4</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Utah</name>
+      <ppg>73.4</ppg>
+      <rpg>35.8</rpg>
+      <apg>13.7</apg>
+      <bpg>3.6</bpg>
+      <spg>6.4</spg>
+      <plus_minus>+2.3</plus_minus>
+      <fg_pct>45.1</fg_pct>
+      <three_pt_pct>33.4</three_pt_pct>
+      <ft_pct>71.6</ft_pct>
+      <ts_pct>53.8</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Houston</name>
+      <ppg>72.4</ppg>
+      <rpg>37.1</rpg>
+      <apg>13.4</apg>
+      <bpg>4.3</bpg>
+      <spg>8.4</spg>
+      <plus_minus>+9.5</plus_minus>
+      <fg_pct>45.0</fg_pct>
+      <three_pt_pct>32.8</three_pt_pct>
+      <ft_pct>71.5</ft_pct>
+      <ts_pct>54.1</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Texas Tech</name>
+      <ppg>71.9</ppg>
+      <rpg>36.8</rpg>
+      <apg>13.0</apg>
+      <bpg>4.0</bpg>
+      <spg>6.6</spg>
+      <plus_minus>+1.9</plus_minus>
+      <fg_pct>44.8</fg_pct>
+      <three_pt_pct>32.4</three_pt_pct>
+      <ft_pct>70.6</ft_pct>
+      <ts_pct>53.5</ts_pct>
+    </team>
+    <team conference="Big 12">
+      <name>Colorado</name>
+      <ppg>71.0</ppg>
+      <rpg>33.6</rpg>
+      <apg>12.9</apg>
+      <bpg>2.7</bpg>
+      <spg>5.8</spg>
+      <plus_minus>-2.8</plus_minus>
+      <fg_pct>43.8</fg_pct>
+      <three_pt_pct>31.7</three_pt_pct>
+      <ft_pct>69.1</ft_pct>
+      <ts_pct>52.3</ts_pct>
+    </team>
 
-    <ConferenceStandings>
+    <!-- ACC Pacific Schools -->
+    <team conference="ACC">
+      <name>Stanford</name>
+      <ppg>76.7</ppg>
+      <rpg>35.5</rpg>
+      <apg>15.2</apg>
+      <bpg>3.5</bpg>
+      <spg>7.0</spg>
+      <plus_minus>+5.4</plus_minus>
+      <fg_pct>46.5</fg_pct>
+      <three_pt_pct>35.0</three_pt_pct>
+      <ft_pct>74.2</ft_pct>
+      <ts_pct>55.7</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>California</name>
+      <ppg>71.2</ppg>
+      <rpg>34.0</rpg>
+      <apg>13.2</apg>
+      <bpg>3.0</bpg>
+      <spg>5.8</spg>
+      <plus_minus>-1.7</plus_minus>
+      <fg_pct>44.2</fg_pct>
+      <three_pt_pct>32.5</three_pt_pct>
+      <ft_pct>70.5</ft_pct>
+      <ts_pct>53.1</ts_pct>
+    </team>
+    <team conference="ACC">
+      <name>SMU</name>
+      <ppg>78.6</ppg>
+      <rpg>36.0</rpg>
+      <apg>15.5</apg>
+      <bpg>3.6</bpg>
+      <spg>7.7</spg>
+      <plus_minus>+7.2</plus_minus>
+      <fg_pct>47.1</fg_pct>
+      <three_pt_pct>36.0</three_pt_pct>
+      <ft_pct>75.0</ft_pct>
+      <ts_pct>56.8</ts_pct>
+    </team>
 
-        <Conference name="Big Ten">
-            <TeamRank team="Michigan" rank="1"/>
-            <TeamRank team="Purdue" rank="2"/>
-            <TeamRank team="Illinois" rank="3"/>
-        </Conference>
+    <!-- Mountain West Schools -->
+    <team conference="Mountain West">
+      <name>UNLV</name>
+      <ppg>77.2</ppg>
+      <rpg>35.3</rpg>
+      <apg>15.2</apg>
+      <bpg>3.7</bpg>
+      <spg>7.3</spg>
+      <plus_minus>+7.5</plus_minus>
+      <fg_pct>46.8</fg_pct>
+      <three_pt_pct>35.7</three_pt_pct>
+      <ft_pct>74.8</ft_pct>
+      <ts_pct>56.4</ts_pct>
+    </team>
+    <team conference="Mountain West">
+      <name>Boise State</name>
+      <ppg>75.8</ppg>
+      <rpg>36.0</rpg>
+      <apg>14.6</apg>
+      <bpg>3.4</bpg>
+      <spg>6.8</spg>
+      <plus_minus>+6.2</plus_minus>
+      <fg_pct>46.2</fg_pct>
+      <three_pt_pct>35.3</three_pt_pct>
+      <ft_pct>74.4</ft_pct>
+      <ts_pct>55.9</ts_pct>
+    </team>
+    <team conference="Mountain West">
+      <name>Fresno State</name>
+      <ppg>72.7</ppg>
+      <rpg>34.9</rpg>
+      <apg>13.5</apg>
+      <bpg>3.0</bpg>
+      <spg>6.1</spg>
+      <plus_minus>+1.8</plus_minus>
+      <fg_pct>44.4</fg_pct>
+      <three_pt_pct>32.8</three_pt_pct>
+      <ft_pct>70.7</ft_pct>
+      <ts_pct>53.2</ts_pct>
+    </team>
+    <team conference="Mountain West">
+      <name>Nevada</name>
+      <ppg>71.4</ppg>
+      <rpg>34.2</rpg>
+      <apg>13.2</apg>
+      <bpg>2.8</bpg>
+      <spg>5.9</spg>
+      <plus_minus>+0.4</plus_minus>
+      <fg_pct>44.1</fg_pct>
+      <three_pt_pct>32.5</three_pt_pct>
+      <ft_pct>70.0</ft_pct>
+      <ts_pct>52.9</ts_pct>
+    </team>
+    <team conference="Mountain West">
+      <name>San Diego State</name>
+      <ppg>70.5</ppg>
+      <rpg>36.4</rpg>
+      <apg>12.8</apg>
+      <bpg>4.1</bpg>
+      <spg>7.0</spg>
+      <plus_minus>+6.7</plus_minus>
+      <fg_pct>44.9</fg_pct>
+      <three_pt_pct>32.2</three_pt_pct>
+      <ft_pct>70.3</ft_pct>
+      <ts_pct>53.6</ts_pct>
+    </team>
 
-        <Conference name="ACC">
-            <TeamRank team="Duke" rank="1"/>
-            <TeamRank team="North Carolina" rank="2"/>
-            <TeamRank team="Virginia" rank="3"/>
-        </Conference>
+    <!-- AAC/Sun Belt/CUSA West Schools -->
+    <team conference="AAC">
+      <name>Tulane</name>
+      <ppg>74.5</ppg>
+      <rpg>35.6</rpg>
+      <apg>14.5</apg>
+      <bpg>3.3</bpg>
+      <spg>7.2</spg>
+      <plus_minus>+4.5</plus_minus>
+      <fg_pct>45.9</fg_pct>
+      <three_pt_pct>35.1</three_pt_pct>
+      <ft_pct>73.6</ft_pct>
+      <ts_pct>55.6</ts_pct>
+    </team>
+    <team conference="AAC">
+      <name>Tulsa</name>
+      <ppg>70.3</ppg>
+      <rpg>33.5</rpg>
+      <apg>13.0</apg>
+      <bpg>2.7</bpg>
+      <spg>5.7</spg>
+      <plus_minus>-1.5</plus_minus>
+      <fg_pct>43.6</fg_pct>
+      <three_pt_pct>32.0</three_pt_pct>
+      <ft_pct>69.4</ft_pct>
+      <ts_pct>52.4</ts_pct>
+    </team>
+    <team conference="Sun Belt">
+      <name>Louisiana</name>
+      <ppg>73.8</ppg>
+      <rpg>35.5</rpg>
+      <apg>14.0</apg>
+      <bpg>3.1</bpg>
+      <spg>6.6</spg>
+      <plus_minus>+3.8</plus_minus>
+      <fg_pct>45.3</fg_pct>
+      <three_pt_pct>33.9</three_pt_pct>
+      <ft_pct>71.9</ft_pct>
+      <ts_pct>54.4</ts_pct>
+    </team>
+    <team conference="Sun Belt">
+      <name>Arkansas State</name>
+      <ppg>70.6</ppg>
+      <rpg>34.1</rpg>
+      <apg>12.8</apg>
+      <bpg>2.7</bpg>
+      <spg>5.8</spg>
+      <plus_minus>-1.0</plus_minus>
+      <fg_pct>43.7</fg_pct>
+      <three_pt_pct>32.1</three_pt_pct>
+      <ft_pct>69.6</ft_pct>
+      <ts_pct>52.6</ts_pct>
+    </team>
+    <team conference="CUSA">
+      <name>UTSA</name>
+      <ppg>71.7</ppg>
+      <rpg>34.3</rpg>
+      <apg>13.1</apg>
+      <bpg>2.8</bpg>
+      <spg>5.9</spg>
+      <plus_minus>+0.5</plus_minus>
+      <fg_pct>44.0</fg_pct>
+      <three_pt_pct>32.6</three_pt_pct>
+      <ft_pct>70.1</ft_pct>
+      <ts_pct>52.9</ts_pct>
+    </team>
+    <team conference="CUSA">
+      <name>New Mexico State</name>
+      <ppg>72.9</ppg>
+      <rpg>35.2</rpg>
+      <apg>13.8</apg>
+      <bpg>3.0</bpg>
+      <spg>6.3</spg>
+      <plus_minus>+2.0</plus_minus>
+      <fg_pct>44.7</fg_pct>
+      <three_pt_pct>33.1</three_pt_pct>
+      <ft_pct>71.3</ft_pct>
+      <ts_pct>53.7</ts_pct>
+    </team>
 
-        <Conference name="Big 12">
-            <TeamRank team="Arizona" rank="1"/>
-            <TeamRank team="Houston" rank="2"/>
-            <TeamRank team="Kansas" rank="3"/>
-        </Conference>
+  </conference>
 
-    </ConferenceStandings>
-
-</CollegeBasketballAnalytics>
+</ncaa_d1_basketball_stats>
